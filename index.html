@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>The DOM playground</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div id="greeting">
+    Hello There!
+  </div>
+  <hr>
+  <div class="content">
+    Essentials:
+  </div>
+
+  <div id="essentials">
+    <ul>
+      <li>milk</li>
+      <li class="selected">honey</li>
+      <li>water</li>
+      <li>wine</li>
+      <li>beer</li>
+    </ul>
+  </div>
+
+  <div>
+    <img src="http://49.media.tumblr.com/tumblr_m6qt1rjPSz1rxjzkho1_500.gif" height="70px" width="70px" alt="gif">
+  </div>
+
+  <div id="ghosting" onmouseover="mouseOver()">
+    Touch me and I'll disappear!
+  </div>
+
+  <div id="resize" onmouseover="doubleWidth()" onmouseout="normalWidth()">
+    Touch me and I'll turn twice as wide!
+  </div>
+
+  <input type="submit" value="Reset" id="reset"></input>
+
+  <ul id= "todoItems">
+  </ul>
+
+  <script src="domexercises.js"></script>
+</body>
+</html>
